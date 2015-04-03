@@ -1,3 +1,3 @@
 # colorwar
 
-Web Design Submission for [Bitcamp's](bitca.mp/) colorwar competition.
+Web Design Submission for [Bitcamp's](http://bitca.mp/) colorwar competition.
