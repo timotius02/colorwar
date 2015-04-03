@@ -263,7 +263,7 @@ fill: #ffaf40;
 h2 {
   position: absolute; 
   top: 50%; 
-  left: 50%;
+  left: 45%;
   margin-top: -1.5em; 
   margin-left: -4em; 
   font-family: 'Arvo', serif; 
@@ -294,7 +294,7 @@ h2::before, h2::after {
 }
 h2::before {
   left: -1.95em;
-  top: .725em;
+  top: .9em;
   float: right;
   border-color: #c67139;
   border-left-color: rgba(0,0,0,0);
@@ -318,7 +318,7 @@ strong::before, strong::after {
 }
 strong::before {
   left: -.21em;
-  top: 1.75em;
+  top: 1.9em;
   border-top-color: #8c5f41;
   border-right-color: #8c5f41;
 }
