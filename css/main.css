@@ -329,10 +329,28 @@ strong::after {
   border-bottom-color: #8c5f41;
 }
 
+.button {
+    background: #ff7040;
+    border-radius: calc(3rem/16);
+    text-transform: uppercase;
+    color: white;
+    height: calc(50rem/16);
+    line-height: calc(50rem/16);
+    width: calc(200rem/16);
+    text-align: center;
+    letter-spacing: calc(1rem/8);
+    margin-left: calc(50% - (100rem/16));
+    margin-top: 10%;
+}
+.button:hover {
+    background-color: #ffaf40;
 
+    cursor: pointer;
+}
 
-
-
+.button:active {
+    background-color: #ff7040;
+}
 
 
 
@@ -350,6 +368,18 @@ strong::after {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+/*
+ * Disable highlighting 
+ * http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting
+ */
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 /*
  * Hide visually and from screen readers:
@@ -516,3 +546,4 @@ strong::after {
         page-break-after: avoid;
     }
 }
+

@@ -14,3 +14,7 @@ var phrases = ['Today Maryland, Tomorrow Space',
 			   'Node.js powered Rocket'];
 
 $('h2 strong').text(phrases[Math.floor(Math.random() * phrases.length)]);
+
+$('.button').on('click', function(e){
+	$('h2 strong').text(phrases[Math.floor(Math.random() * phrases.length)]);
+});
